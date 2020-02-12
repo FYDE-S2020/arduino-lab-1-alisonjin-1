@@ -1,22 +1,25 @@
-Name:
+Name:Alison Jin
 
-EID:
+EID:AQJ82
 
-Team Number:
+Team Number: F4
 
 ## Questions
 
 1. Why does your program need a setup and a loop?
 
-    your answer here
+    setup has the initialization that only needs to occur once. In this case, that's initializing that pin 2 is an output.
+    loop is for code that needs to be looped. In this case, that's the call for timedBlink because we want the blinking 
+    pattern to repeat.
 
 2. What is the downside to putting all your code in a loop?
 
-    your answer here
+    It's hard to debug and is messy to read. Having a function that is called in loop() makes it easier reuse code when needed
+    and more organized.
 
 3. Why does your code need to be compiled?
 
-    your answer here
+    The code needs to be translated into assembly by the compiler so that the microcontroller can actually understand the code.
 
 4. When lowering the frequency in procedure A, step 4, what is going wrong? Brainstorm some solutions. Dimmers exist in the real world. What is their solution?
 
@@ -61,7 +64,7 @@ Team Number:
 ## Screenshots
 
 Procedure A, step 1:
-![Put path to your image here ->](img/placeholder.png)
+![Put path to your image here ->](img/Blink.png)
 
 Procedure A, step 4:
 ![Put path to your image here ->](img/placeholder.png)
