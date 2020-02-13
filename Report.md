@@ -32,34 +32,36 @@ Team Number: F4
 
 7. Profile of UART: Sent X bytes in Y time 
 
-    your answer here
+    7 bytes in 12.4 ms
 
 8. Profile of SPI: Sent X bytes in Y time
 
-    your answer here
+    7 bytes in 0.311 ms
 
 9. Why is SPI so much faster than UART?
 
-    your answer here
+    SPI has no start stop bits so data can be transmitted continuously
 
 10. list one pro and one con of UART
 
-    your answer here
+    Pro: has the parity bit which helps with one bit error detection
+    Con: suitable only for communication between two devices
 
 11. list one pro and one con of SPI
 
-    your answer here
+    Pro: has a simple protocol and does not require processing overheads
+    Con: as the number of slave devices increase, number of CS lines increases, making the hardware more complex
 
 12. list one pro and one con of I2C
 
-    your answer here
+    Pro: useful for controlling multiple slave devices with one master
+    Con: very senitive to interference
 
 13. Why does I2C need external resistors to work?
 
-    your answer here
+    They need external pull up or pull down resistors to have a high clock speed because the built in ones are too weak anc can only handle a low clock speed.
 
 ## Screenshots
-
 Procedure A, step 1:
 ![Put path to your image here ->](img/Blink.png)
 
@@ -67,7 +69,7 @@ Procedure A, step 4:
 ![Put path to your image here ->](img/dimmer.png)
 
 Procedure B, UART:
-![Put path to your image here ->](img/placeholder.png)
+![Put path to your image here ->](img/uart.png)
 
 Procedure B, SPI:
-![Put path to your image here ->](img/placeholder.png)
+![Put path to your image here ->](img/spi.png)
